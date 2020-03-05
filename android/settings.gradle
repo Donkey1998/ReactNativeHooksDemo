@@ -1,0 +1,3 @@
+rootProject.name = 'ReactNativeHooksDemo'
+
+include ':app'
