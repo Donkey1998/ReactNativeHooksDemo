@@ -1,7 +1,6 @@
-import HooksDemo from './js/Page/HooksDemo';
-import HooksDemo2 from './js/Page/HooksDemo2'
+import HomePage from './js/Page/HomePage';
+
 module.exports = {
-    HooksDemo: { screen: HooksDemo },
-    HooksDemo2: { screen: HooksDemo2 },
+    HomePage: { screen: HomePage },
 };
 

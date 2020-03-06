@@ -7,7 +7,7 @@ import Screens from './Screens';
 const AppNavigator =  createStackNavigator(
   Screens,
   {
-    initialRouteName: 'HooksDemo',
+    initialRouteName: 'HomePage',
     headerMode: 'none',
     mode: 'card',
     navigationOptions: {
