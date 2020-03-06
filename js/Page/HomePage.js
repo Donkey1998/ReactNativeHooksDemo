@@ -10,10 +10,16 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
 export default class HomePage extends Component {
+  onPress(){
+    this.props.navigation.navigate('HooksExample', {
+      navigation: this.props.navigation,
+    });
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>Welcome to HomePage!</Text>
+        <Text style={styles.text} onPress={()=>{this.onPress()}}>Go to HooksExample!</Text>
       </View>
     );
   }
