@@ -11,7 +11,7 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 export default class HomePage extends Component {
   onPress(){
-    this.props.navigation.navigate('HooksExample', {
+    this.props.navigation.navigate('HookUseEffect', {
       navigation: this.props.navigation,
     });
   }
