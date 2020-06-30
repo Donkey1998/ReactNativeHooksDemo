@@ -11,7 +11,7 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 export default class HomePage extends Component {
   onPress(){
-    this.props.navigation.navigate('HooksUseReducer', {
+    this.props.navigation.navigate('reduxDemo', {
       navigation: this.props.navigation,
     });
   }
